@@ -12,22 +12,22 @@ function checkPassword() {
     
     var userPassword = document.getElementById("userP").value;
     
-    while (i < 3) {
+  
         
     
-        if (userPassword === "") {
+    if (userPassword === "") {
         
-            alert("Write something please!");
+        alert("Write something please!");
         
-        } else if (userPassword !== access) {
+    } else if (userPassword !== access) {
         
         alert("wrong password!");
         i++;
 
-        } else {
+    } else {
         
         alert("congratulations!");
-        }  
-    }
+    }  
+
     
 }
