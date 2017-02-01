@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Hello World</p>
+<p id="demo"></p>
+<script>
+
+    
+    //Event Listener
+var event1 = document.getElementById("button1");
+    event1.addEventListener("click", myFirstB, false);
+    
+    //Starting the function declared on the event listener
+    function myFirstB() {
+        
+        //Here I am getting the value from the user input
+        var input1 = document.getElementById("input1").value;
+        
+        //Here I am displaying the value back to the user
+        window.alert(input1);
+    }
+</script>
+</body>
+</html>
